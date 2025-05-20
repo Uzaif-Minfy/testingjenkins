@@ -8,6 +8,7 @@ pipeline {
                 }
             }
         }
+    }
     post {
         success {
             echo "Docker image built and pushed to DockerHub!"
